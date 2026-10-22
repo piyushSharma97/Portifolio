@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "title": "Piyush Sharma | Senior Frontend & AI Engineer | Bangalore",
+    "description": "Piyush Sharma is a Senior Frontend Engineer and AI Applications Developer in Bangalore, building production-grade web applications and AI-powered solutions.",
+    "openGraphTitle": "Piyush Sharma | Senior Frontend & AI Engineer",
+    "openGraphDescription": "5+ years crafting production-grade web applications and AI-powered solutions from Bangalore."
+  },
+  "navigation": {
+    "logoLabel": "Piyush Sharma home",
+    "logoText": "PS",
+    "brandName": "PIYUSH SHARMA",
+    "brandSuffix": ".",
+    "ariaLabel": "Main navigation",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Skills", "href": "#skills" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "roles": [
+      "Senior Frontend Engineer",
+      "AI Applications Developer",
+      "Playwright Automation Expert",
+      "Full Stack AI Engineer"
+    ],
+    "eyebrow": "SOFTWARE ENGINEER · BANGALORE, INDIA",
+    "firstName": "Piyush",
+    "lastName": "Sharma",
+    "tagline": "Building production-grade web applications and AI-powered solutions from Bangalore, India.",
+    "experienceValue": "5+",
+    "experienceNote": "YEARS EXPERIENCE",
+    "experienceDetail": "Frontend · AI products · test automation",
+    "floatingTech": [
+      { "label": "React", "symbol": "</>", "style": "tech-float--react" },
+      { "label": "TypeScript", "symbol": "TS", "style": "tech-float--typescript" },
+      { "label": "Playwright", "symbol": "PW", "style": "tech-float--playwright" },
+      { "label": "AI / RAG", "symbol": "{ AI }", "style": "tech-float--ai" },
+      { "label": "Next.js", "symbol": "N", "style": "tech-float--next" }
+    ],
+    "primaryAction": "View My Work",
+    "resumeAction": "Download Resume",
+    "scrollCue": "SCROLL TO EXPLORE",
+    "techNote": "REACT · NEXT.JS · AI",
+    "availability": "OPEN TO OPPORTUNITIES",
+    "coordinates": "12°58' N — 77°35' E"
+  },
+  "about": {
+    "eyebrow": "THE PERSON BEHIND THE PIXELS",
+    "headingStart": "A little",
+    "headingHighlight": "about me",
+    "title": "Crafting Digital Experiences with AI",
+    "bio": "I'm a Senior Frontend Engineer with 5+ years building production web applications across healthcare, edtech, e-commerce, and enterprise software. Based in Bangalore, I specialise in React, Next.js, TypeScript, and AI application development — from streaming chat interfaces to complete RAG pipelines running on local GPU.",
+    "avatarInitials": "PS",
+    "avatarCaption": "BENGALURU, IN",
+    "stats": [
+      { "value": 5, "suffix": "+", "label": "Years Experience", "icon": "BriefcaseBusiness" },
+      { "value": 180, "suffix": "+", "label": "Test Cases Built", "icon": "FlaskConical" },
+      { "value": 4, "suffix": "", "label": "Companies", "icon": "Braces" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "TOOLS OF THE TRADE",
+    "headingStart": "Technical",
+    "headingHighlight": "Arsenal",
+    "detail": "MY EVERYDAY TOOLKIT",
+    "groups": [
+      {
+        "name": "Frontend",
+        "icon": "CodeXml",
+        "skills": ["React 18", "Next.js 16", "TypeScript", "Redux Toolkit", "Tailwind CSS", "SCSS", "Framer Motion"]
+      },
+      {
+        "name": "AI & GenAI",
+        "icon": "Sparkles",
+        "skills": ["Vercel AI SDK", "OpenAI API", "LangChain", "FAISS Vector Store", "RAG Systems", "Ollama Local LLMs", "Agentic AI", "MCP", "LangGraph"]
+      },
+      {
+        "name": "Testing & DevOps",
+        "icon": "FlaskConical",
+        "skills": ["Playwright", "WebdriverIO", "GitHub Actions CI/CD", "Playwright MCP", "Docker basics", "Git"]
+      },
+      {
+        "name": "Backend & Tools",
+        "icon": "Server",
+        "skills": ["Node.js", "Python", "FastAPI basics", "REST APIs", "JWT", "Socket.io", "Vercel", "MongoDB"]
+      }
+    ],
+    "constellationIcons": ["Bot", "Braces", "CloudCog", "Database", "GitBranch", "Layers3", "MessageSquareCode", "Network", "Workflow"],
+    "constellationLabel": "ALWAYS LEARNING"
+  },
+  "projects": {
+    "eyebrow": "SELECTED PROJECTS",
+    "headingStart": "Featured",
+    "headingHighlight": "Work",
+    "detail": "A FEW THINGS I’VE BUILT",
+    "projectPrefix": "PROJECT",
+    "subtitle": "Real applications built and deployed in production.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Next.js AI SDK Playground",
+        "description": "Production AI application exploring multiple AI patterns. Built with streaming chat (token-by-token rendering), multi-modal inputs, structured data extraction, and real-time token usage tracking. Includes production-grade rate limiting with Upstash Redis.",
+        "tags": ["Next.js 16", "Vercel AI SDK", "TypeScript", "OpenAI", "Upstash Redis"],
+        "badge": "LIVE",
+        "icon": "Bot",
+        "className": "project-featured",
+        "links": [
+          { "label": "Live Demo", "href": "https://nextjs-ai-app-pi.vercel.app" },
+          { "label": "GitHub", "href": "https://github.com/piyushSharma97/nextjs-ai-app" }
+        ]
+      },
+      {
+        "number": "02",
+        "title": "RAG Document Pipeline",
+        "description": "Complete Retrieval-Augmented Generation system. Loads documents, splits them into chunks, creates embeddings, and stores them in FAISS — all running locally on an RTX 4060 GPU. Zero API costs.",
+        "tags": ["Python", "LangChain", "FAISS", "Ollama", "Local LLM"],
+        "badge": "AI",
+        "icon": "Sparkles",
+        "className": "project-ai",
+        "links": [
+          { "label": "GitHub", "href": "https://github.com/piyushSharma97" }
+        ]
+      },
+      {
+        "number": "03",
+        "title": "E-Consult Healthcare Platform",
+        "description": "Real-time doctor-patient consultation platform with video calling, live appointment booking, and WebSocket-based instant messaging.",
+        "tags": ["Next.js", "TypeScript", "Socket.io", "React 18"],
+        "badge": "HEALTHCARE",
+        "icon": "HeartPulse",
+        "className": "project-health",
+        "links": []
+      },
+      {
+        "number": "04",
+        "title": "Edprime ERP System",
+        "description": "Enterprise education management platform with library module, automated CRUD code generation tool, and reusable component architecture.",
+        "tags": ["React.js", "TypeScript", "Redux", "JavaScript"],
+        "badge": "ENTERPRISE",
+        "icon": "Layers3",
+        "className": "project-enterprise",
+        "links": []
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "WHERE I’VE MADE AN IMPACT",
+    "headingStart": "The",
+    "headingHighlight": "Journey",
+    "detail": "2020 — PRESENT",
+    "currentLabel": "CURRENT",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "company": "Prutech Solutions → John Deere India (Expert-Connect)",
+        "dates": "April 2025 – Present",
+        "location": "Bangalore",
+        "current": true,
+        "details": [
+          "Migrated 180+ test cases from WebdriverIO to Playwright — 60% efficiency improvement.",
+          "Integrated CI/CD pipeline with GitHub Actions.",
+          "Exploring Playwright MCP for AI-powered test generation.",
+          "Collaborated with backend teams for edge-case coverage."
+        ]
+      },
+      {
+        "title": "Programmer",
+        "company": "Dotsquares Technologies",
+        "dates": "July 2024 – February 2025",
+        "location": "Jaipur",
+        "current": false,
+        "details": [
+          "Built E-Consult real-time healthcare consultation platform with video calling.",
+          "Developed Downtime Trace hospital device maintenance system.",
+          "Implemented Next.js and TypeScript for high-performance architecture."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "eBizneeds Business Solutions",
+        "dates": "October 2022 – July 2024",
+        "location": "Jaipur",
+        "current": false,
+        "details": [
+          "Led Edprime ERP frontend — education platform serving thousands of users.",
+          "Built Library Module and Protogen automated code generation tool.",
+          "Implemented unit and integration testing with thorough code reviews."
+        ]
+      },
+      {
+        "title": "Software Engineer (JavaScript)",
+        "company": "Sarvika Technologies",
+        "dates": "September 2020 – June 2022",
+        "location": "Jaipur",
+        "current": false,
+        "details": [
+          "Built e-commerce stores for Deloitte, Proofpoint, Bobcat, and Global Trident.",
+          "Awarded Employee of the Month in February 2022."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "HAVE SOMETHING IN MIND?",
+    "headingStart": "Let's build",
+    "headingHighlight": "something together",
+    "intro": "Open to Senior Frontend, AI Engineer, and Solution Engineer roles — Bangalore and remote.",
+    "availability": "AVAILABLE FOR NEW OPPORTUNITIES",
+    "emailTo": "piyushsharma70141@gmail.com",
+    "cards": [
+      { "label": "EMAIL", "value": "piyushsharma70141@gmail.com", "href": "mailto:piyushsharma70141@gmail.com", "icon": "Mail" },
+      { "label": "GITHUB", "value": "github.com/piyushSharma97", "href": "https://github.com/piyushSharma97", "icon": "Globe2" },
+      { "label": "PORTFOLIO", "value": "nextjs-ai-app-pi.vercel.app", "href": "https://nextjs-ai-app-pi.vercel.app", "icon": "ArrowUpRight" },
+      { "label": "LOCATION", "value": "Bangalore, Karnataka, India", "href": "https://maps.google.com/?q=Bangalore,Karnataka", "icon": "MapPin" }
+    ],
+    "form": {
+      "nameLabel": "Your name",
+      "namePlaceholder": "Jane Smith",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "jane@company.com",
+      "messageLabel": "What are you thinking?",
+      "messagePlaceholder": "Tell me a little about your project...",
+      "submitLabel": "Send Message",
+      "sentLabel": "Opening your email app",
+      "note": "Your email app will open with your message ready to send.",
+      "emailSubjectPrefix": "Portfolio enquiry from",
+      "senderPrefix": "From:"
+    }
+  },
+  "footer": {
+    "logoText": "PS",
+    "logoSuffix": ".",
+    "logoLabel": "Back to top",
+    "credit": "Designed and built by Piyush Sharma",
+    "githubLabel": "GITHUB",
+    "emailLabel": "EMAIL",
+    "copyrightSuffix": "· NEXT.JS 16 · WITH PASSION",
+    "githubHref": "https://github.com/piyushSharma97",
+    "emailHref": "mailto:piyushsharma70141@gmail.com"
+  },
+  "resume": {
+    "fileName": "Piyush-Sharma-Resume.txt",
+    "name": "PIYUSH SHARMA",
+    "headline": "Senior Frontend Engineer | AI Applications Developer",
+    "location": "Bangalore, Karnataka, India",
+    "email": "piyushsharma70141@gmail.com",
+    "github": "https://github.com/piyushSharma97",
+    "emailPrefix": "Email:",
+    "githubPrefix": "GitHub:",
+    "experienceHeading": "EXPERIENCE",
+    "skillsHeading": "TECHNICAL SKILLS",
+    "profileHeading": "PROFILE",
+    "profile": "Senior Frontend Engineer with 5+ years building production web applications across healthcare, edtech, e-commerce, and enterprise software. Specializes in React, Next.js, TypeScript, AI application development, and test automation.",
+    "skills": [
+      "Frontend: React 18, Next.js 16, TypeScript, Redux Toolkit, SCSS, Tailwind CSS",
+      "AI & GenAI: Vercel AI SDK, OpenAI API, LangChain, RAG, FAISS, Ollama, Agentic AI, MCP",
+      "Testing: Playwright, WebdriverIO, GitHub Actions CI/CD, Playwright MCP",
+      "Backend & Tools: Node.js, FastAPI, Python, Git, Vercel, Docker"
+    ]
+  }
+}
