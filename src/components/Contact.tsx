@@ -1,10 +1,10 @@
-import { ArrowUpRight, Globe2, Mail, MapPin } from "lucide-react";
+import { ArrowUpRight, Globe2, Linkedin, Mail, MapPin } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 
-const icons: Record<string, LucideIcon> = { ArrowUpRight, Globe2, Mail, MapPin };
+const icons: Record<string, LucideIcon> = { ArrowUpRight, Globe2, Linkedin, Mail, MapPin };
 type ContactContent = {
   eyebrow: string;
   headingStart: string;
@@ -39,7 +39,7 @@ export function Contact({ content }: { content: ContactContent }) {
         <Reveal className="contact-details">
           <div className="contact-cards">
             {content.cards.map(({ label, value, href, icon }) => {
-              const Icon = icons[icon];
+              const Icon = icons[icon] ?? Globe2;
               return (
               <a className="contact-card glass-card" href={href} key={label} rel={href.startsWith("http") ? "noreferrer" : undefined} target={href.startsWith("http") ? "_blank" : undefined}>
                 <span className="contact-card-icon"><Icon size={17} /></span>

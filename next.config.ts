@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isGithubActions ? "/Portifolio" : "");
+const defaultRepo = process.env.GITHUB_REPOSITORY
+  ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}`
+  : "/portfolio";
+
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isGithubActions ? defaultRepo : "");
 const basePath = rawBasePath === "/" ? "" : rawBasePath;
 
 const nextConfig: NextConfig = {
