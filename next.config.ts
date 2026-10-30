@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isProd ? "/Portifolio" : "");
+const isGithubActions = process.env.GITHUB_ACTIONS === "true";
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isGithubActions ? "/Portifolio" : "");
 const basePath = rawBasePath === "/" ? "" : rawBasePath;
 
 const nextConfig: NextConfig = {
-  output: "export",
+  ...(isGithubActions ? { output: "export" as const } : {}),
   basePath: basePath || undefined,
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  allowedDevOrigins: ["172.22.144.1", "192.168.1.107"],
+  allowedDevOrigins: ["172.22.144.1"],
 };
 
 export default nextConfig;
