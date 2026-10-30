@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Navbar navigation={portfolio.navigation} />
       <main>
-        <Hero content={portfolio.hero} resume={portfolio.resume} experience={portfolio.experience.roles} />
+        <Hero content={portfolio.hero} resume={portfolio.resume} />
         <About content={portfolio.about} />
         <Skills content={portfolio.skills} />
         <Projects content={portfolio.projects} />

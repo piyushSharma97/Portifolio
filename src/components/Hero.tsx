@@ -26,36 +26,15 @@ type HeroContent = {
 
 type ResumeContent = {
   fileName: string;
-  name: string;
-  headline: string;
-  location: string;
-  email: string;
-  github: string;
-  emailPrefix: string;
-  githubPrefix: string;
-  profileHeading: string;
-  experienceHeading: string;
-  skillsHeading: string;
-  profile: string;
-  skills: string[];
-};
-
-type ResumeExperience = {
-  title: string;
-  company: string;
-  dates: string;
-  location: string;
-  details: string[];
+  pdfHref: string;
 };
 
 export function Hero({
   content,
   resume,
-  experience,
 }: {
   content: HeroContent;
   resume: ResumeContent;
-  experience: ResumeExperience[];
 }) {
   const [roleIndex, setRoleIndex] = useState(0);
   const reduceMotion = useReducedMotion();
@@ -113,7 +92,6 @@ export function Hero({
             <a className="button button-primary" href="#projects">{content.primaryAction} <ArrowUpRight size={17} /></a>
             <ResumeDownload
               content={resume}
-              experience={experience}
               label={content.resumeAction}
               icon={<ArrowDownToLine size={16} />}
             />
