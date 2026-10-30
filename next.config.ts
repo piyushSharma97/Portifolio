@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
-const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const isProd = process.env.NODE_ENV === "production";
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isProd ? "/Portifolio" : "");
 const basePath = rawBasePath === "/" ? "" : rawBasePath;
 
 const nextConfig: NextConfig = {
