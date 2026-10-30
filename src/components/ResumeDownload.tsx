@@ -14,8 +14,13 @@ export function ResumeDownload({
   label: string;
   icon: ReactNode;
 }) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const href = content.pdfHref.startsWith("/")
+    ? `${basePath}${content.pdfHref}`
+    : content.pdfHref;
+
   return (
-    <a className="button button-secondary" href={content.pdfHref} download={content.fileName}>
+    <a className="button button-secondary" href={href} download={content.fileName}>
       {icon} {label}
     </a>
   );
