@@ -56,7 +56,7 @@
     "headingStart": "A little",
     "headingHighlight": "about me",
     "title": "Crafting Digital Experiences with AI",
-    "bio": "I'm a Senior Frontend Engineer with 5+ years building production web applications across healthcare, edtech, e-commerce, and enterprise software. Based in Bangalore, I specialise in React, Next.js, TypeScript, and AI application development — from streaming chat interfaces to complete RAG pipelines running on local GPU.",
+    "bio": "I'm a Senior Frontend Engineer with 5+ years building production web applications across healthcare, edtech, e-commerce, and enterprise software. Based in Bangalore, I specialise in React, Next.js, TypeScript, and AI application development — from streaming chat interfaces to enterprise automation.",
     "avatarInitials": "PS",
     "avatarCaption": "BENGALURU, IN",
     "stats": [
@@ -106,7 +106,7 @@
       {
         "number": "01",
         "title": "Next.js AI SDK Playground",
-        "description": "Production AI application exploring multiple AI patterns. Built with streaming chat (token-by-token rendering), multi-modal inputs, structured data extraction, and real-time token usage tracking. Includes production-grade rate limiting with Upstash Redis.",
+        "description": "Production AI application exploring modern AI patterns. Built with streaming chat (token-by-token rendering), multi-modal inputs, structured data extraction, and real-time token usage tracking. Includes production-grade rate limiting with Upstash Redis.",
         "tags": ["Next.js 16", "Vercel AI SDK", "TypeScript", "OpenAI", "Upstash Redis"],
         "badge": "LIVE",
         "icon": "Bot",
@@ -118,31 +118,19 @@
       },
       {
         "number": "02",
-        "title": "RAG Document Pipeline",
-        "description": "Complete Retrieval-Augmented Generation system. Loads documents, splits them into chunks, creates embeddings, and stores them in FAISS — all running locally on an RTX 4060 GPU. Zero API costs.",
-        "tags": ["Python", "LangChain", "FAISS", "Ollama", "Local LLM"],
-        "badge": "AI",
-        "icon": "Sparkles",
-        "className": "project-ai",
-        "links": [
-          { "label": "GitHub", "href": "https://github.com/piyushSharma97" }
-        ]
-      },
-      {
-        "number": "03",
         "title": "E-Consult Healthcare Platform",
-        "description": "Real-time doctor-patient consultation platform with video calling, live appointment booking, and WebSocket-based instant messaging.",
-        "tags": ["Next.js", "TypeScript", "Socket.io", "React 18"],
+        "description": "Real-time doctor-patient consultation platform featuring video consultations, live appointment scheduling, and WebSocket-based instant messaging (Dotsquares Technologies).",
+        "tags": ["Next.js", "TypeScript", "Socket.io", "React 18", "WebRTC"],
         "badge": "HEALTHCARE",
         "icon": "HeartPulse",
         "className": "project-health",
         "links": []
       },
       {
-        "number": "04",
+        "number": "03",
         "title": "Edprime ERP System",
-        "description": "Enterprise education management platform with library module, automated CRUD code generation tool, and reusable component architecture.",
-        "tags": ["React.js", "TypeScript", "Redux", "JavaScript"],
+        "description": "Enterprise education management platform serving thousands of students and faculty, featuring automated CRUD code generation tools and modular component architecture (eBizneeds).",
+        "tags": ["React.js", "TypeScript", "Redux Toolkit", "JavaScript", "REST APIs"],
         "badge": "ENTERPRISE",
         "icon": "Layers3",
         "className": "project-enterprise",
@@ -217,7 +205,8 @@
     "cards": [
       { "label": "EMAIL", "value": "piyushsharma70141@gmail.com", "href": "mailto:piyushsharma70141@gmail.com", "icon": "Mail" },
       { "label": "GITHUB", "value": "github.com/piyushSharma97", "href": "https://github.com/piyushSharma97", "icon": "Globe2" },
-      { "label": "PORTFOLIO", "value": "nextjs-ai-app-pi.vercel.app", "href": "https://nextjs-ai-app-pi.vercel.app", "icon": "ArrowUpRight" },
+      { "label": "LINKEDIN", "value": "linkedin.com/in/piyushsharma97", "href": "https://linkedin.com/in/piyushsharma97", "icon": "Linkedin" },
+      { "label": "PORTFOLIO", "value": "portifolio-sigma-seven-69.vercel.app", "href": "https://portifolio-sigma-seven-69.vercel.app", "icon": "ArrowUpRight" },
       { "label": "LOCATION", "value": "Bangalore, Karnataka, India", "href": "https://maps.google.com/?q=Bangalore,Karnataka", "icon": "MapPin" }
     ],
     "form": {
@@ -240,6 +229,8 @@
     "logoLabel": "Back to top",
     "credit": "Designed and built by Piyush Sharma",
     "githubLabel": "GITHUB",
+    "linkedinLabel": "LINKEDIN",
+    "linkedinHref": "https://linkedin.com/in/piyushsharma97",
     "emailLabel": "EMAIL",
     "copyrightSuffix": "· NEXT.JS 16 · WITH PASSION",
     "githubHref": "https://github.com/piyushSharma97",

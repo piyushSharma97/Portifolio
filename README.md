@@ -34,10 +34,9 @@
 
 | Project | Description | Tech Stack | Links |
 | :--- | :--- | :--- | :--- |
-| **Next.js AI SDK Playground** | Full-stack AI application exploring streaming chat, multi-modal inputs, structured data extraction, and Upstash Redis rate limiting. | Next.js 16, Vercel AI SDK, TypeScript, OpenAI, Upstash Redis | [Live Demo](https://nextjs-ai-app-pi.vercel.app) · [Code](https://github.com/piyushSharma97/nextjs-ai-app) |
-| **Local RAG Document Pipeline** | End-to-end Retrieval-Augmented Generation system with document chunking, FAISS vector embeddings, and local Ollama LLM execution on RTX 4060 GPU. | Python, LangChain, FAISS, Ollama, Local LLMs | [GitHub](https://github.com/piyushSharma97) |
-| **E-Consult Healthcare Platform** | Real-time doctor-patient consultation platform featuring video consultations, live scheduling, and WebSocket messaging. | Next.js, TypeScript, Socket.io, React 18 | Production |
-| **Edprime ERP Platform** | Multi-tenant education ERP system serving thousands of active users, featuring automated CRUD code generation tools and modular architecture. | React, TypeScript, Redux Toolkit, SCSS | Production |
+| **Next.js AI SDK Playground** | Full-stack production AI application exploring streaming chat, multi-modal inputs, structured data extraction, and Upstash Redis rate limiting. | Next.js 16, Vercel AI SDK, TypeScript, OpenAI, Upstash Redis | [Live Demo](https://nextjs-ai-app-pi.vercel.app) · [Code](https://github.com/piyushSharma97/nextjs-ai-app) |
+| **E-Consult Healthcare Platform** | Real-time doctor-patient consultation platform featuring video consultations, live scheduling, and WebSocket messaging (Dotsquares). | Next.js, TypeScript, Socket.io, React 18, WebRTC | Production |
+| **Edprime ERP Platform** | Multi-tenant enterprise education ERP platform serving thousands of active users, featuring automated CRUD code generation tools (eBizneeds). | React, TypeScript, Redux Toolkit, SCSS, REST APIs | Production |
 
 ---
 
